@@ -21,7 +21,7 @@
 
 <% if new_date %>
  <h2 class='new-date'>
-  <%= item.published.strftime('%A, %e. %B %Y') %>
+  <%= item.published.strftime('%A, %B %e, %Y') %>
  </h2>
 <% else %>
   <hr class='item-seperator'>
@@ -40,8 +40,8 @@
 <h3 class='item-title'>
  <%= link_to item.title, item.url %>
  <span class='item-timestamp'>
-   <%= time_ago_in_words( item.published ) %> • 
-   <%= item.published.strftime('%H:%M') %>
+   <%= item.published.strftime('%H:%M') %> • 
+   <%= time_ago_in_words( item.published ) %>
  </span>
 </h3>
 
