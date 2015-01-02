@@ -1,0 +1,6 @@
+# pakman manifest
+
+__file__.paper.html  paper.html.erb
+
+css/paper.css
+

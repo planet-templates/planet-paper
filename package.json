@@ -1,0 +1,21 @@
+{
+  "name": "planet-paper",
+  "version": "0.1.0",
+  "description": "paper - planet template pack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/planet-templates/planet-paper.git"
+  },
+  "keywords": [
+    "planet",
+    "pluto",
+    "paper",
+    "planet-templates"
+  ],
+  "author": "Gerald Bauer",
+  "license": "Public Domain",
+  "bugs": {
+    "url": "https://github.com/planet-templates/planet-paper/issues"
+  },
+  "homepage": "https://github.com/planet-templates/planet-paper"
+}
