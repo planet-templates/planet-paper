@@ -14,7 +14,7 @@
 
 
 <%
-   items = site.items.latest.limit(12)
+   items = site.items.latest.limit(24)
    ItemCursor.new( items ).each do |item, new_date, new_feed|
 %>
 
@@ -39,7 +39,12 @@
 
 <h3 class='item-title'>
  <%= link_to item.title, item.url %>
+ <span class='item-timestamp'>
+   <%= item.published.strftime('%H:%M') %> • 
+   <%= time_ago_in_words( item.published ) %>
+ </span>
 </h3>
+
 
 <div class='item-body'>
 
@@ -55,11 +60,6 @@
 <% end %>
 </div>
 
-</div>
-
-<div class='item-footer'>
-   <%= item.published.strftime('%H:%M') %> &bull;
-   <%= time_ago_in_words( item.published ) %>
 </div>
 
 </div><!-- item-body -->
