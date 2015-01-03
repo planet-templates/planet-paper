@@ -1,5 +1,7 @@
 body {
-  font-family: Helvetica, sans-serif; }
+  font-family: Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 a {
   text-decoration: none;
@@ -18,12 +20,18 @@ a {
   text-align: center; }
 
 .item-separator {
-  margin: 4px 10% 4px 10px;
+  margin: 4px 10% 4px 10%;
   border-bottom: 1px solid #dddddd; }
 
 .item .feed-title {
   margin-bottom: 2px;
   color: grey; }
+  .item .feed-title a {
+    color: grey; }
+    .item .feed-title a:visited {
+      color: grey; }
+    .item .feed-title a:hover {
+      color: grey; }
 .item .item-title {
   margin-top: 0;
   margin-bottom: 2px; }

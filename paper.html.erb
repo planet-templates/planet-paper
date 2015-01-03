@@ -12,7 +12,6 @@
 <h1 class='site-title'><%= site.title %></h1>
 
 
-
 <%
    items = site.items.latest.limit(24)
    ItemCursor.new( items ).each do |item, new_date, new_feed|

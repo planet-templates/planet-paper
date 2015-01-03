@@ -11,7 +11,10 @@
 
 body {
   font-family: $font-family;
-}  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 a {
   text-decoration: none;
@@ -40,7 +43,7 @@ a {
 
 
 .item-separator {
-  margin: 4px 10% 4px 10px;  // top right bottom left
+  margin: 4px 10% 4px 10%;  // top right bottom left
   border-bottom: 1px solid #dddddd; // light grey-ish;
 }
 
@@ -50,7 +53,18 @@ a {
   .feed-title {
     margin-bottom: 2px;
     color: grey;
-  }
+
+   // note: it's an anchor (link) style nested link
+   a {
+     color: grey;
+     &:visited {
+       color: grey;
+     }
+     &:hover {
+      color: grey;
+     }
+    } // a
+  } // feed-title
 
   .item-title {
     margin-top: 0;
