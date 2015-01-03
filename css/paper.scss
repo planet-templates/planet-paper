@@ -38,9 +38,10 @@ a {
   text-align: center;
 }
 
+
 .item-separator {
-  margin: 0;
-  border-bottom: 1px solid grey;
+  margin: 4px 10% 4px 10px;  // top right bottom left
+  border-bottom: 1px solid #dddddd; // light grey-ish;
 }
 
 
@@ -48,14 +49,16 @@ a {
 
   .feed-title {
     margin-bottom: 2px;
+    color: grey;
   }
 
   .item-title {
     margin-top: 0;
-    maring-bottom: 2px;
+    margin-bottom: 2px;
 
    .item-timestamp {
-     font-size: 80%;
+     font-size: 12px;
+     font-weight: normal;
      color: grey;
    }
   } // item-title
@@ -64,10 +67,11 @@ a {
  .item-body {
    color: $item-body-color;
 
-   p {
+   p, ul {
      margin-top: 2px;
      margin-bottom: 2px;
    }
+
   } // item-body
 
 

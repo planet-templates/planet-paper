@@ -53,9 +53,9 @@
 <!-- use 'smarter' algorithm for cutoff snippet text
    note: summary goes first; than try content -->
 <% if item.summary %>
-  <%= textify( item.summary )[0..400] %>
+  <%= textify( item.summary )[0..800] %>
 <% elsif item.content %>
-  <%= textify( item.content )[0..400] %>
+  <%= textify( item.content )[0..800] %>
 <% else %>
   -/-
 <% end %>

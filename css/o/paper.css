@@ -18,20 +18,22 @@ a {
   text-align: center; }
 
 .item-separator {
-  margin: 0;
-  border-bottom: 1px solid grey; }
+  margin: 4px 10% 4px 10px;
+  border-bottom: 1px solid #dddddd; }
 
 .item .feed-title {
-  margin-bottom: 2px; }
+  margin-bottom: 2px;
+  color: grey; }
 .item .item-title {
   margin-top: 0;
-  maring-bottom: 2px; }
+  margin-bottom: 2px; }
   .item .item-title .item-timestamp {
-    font-size: 80%;
+    font-size: 12px;
+    font-weight: normal;
     color: grey; }
 .item .item-body {
   color: #222222; }
-  .item .item-body p {
+  .item .item-body p, .item .item-body ul {
     margin-top: 2px;
     margin-bottom: 2px; }
 
