@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica, sans-serif;
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding-left: 16px;
+  padding-right: 16px; }
 
 a {
   text-decoration: none;
@@ -20,18 +20,14 @@ a {
   text-align: center; }
 
 .item-separator {
-  margin: 4px 10% 4px 10%;
+  margin: 4px 4px 4px 4px;
   border-bottom: 1px solid #dddddd; }
 
 .item .feed-title {
   margin-bottom: 2px;
-  color: grey; }
-  .item .feed-title a {
-    color: grey; }
-    .item .feed-title a:visited {
-      color: grey; }
-    .item .feed-title a:hover {
-      color: grey; }
+  color: #222222; }
+  .item .feed-title a, .item .feed-title a:visited, .item .feed-title a:hover {
+    color: #222222; }
 .item .item-title {
   margin-top: 0;
   margin-bottom: 2px; }
