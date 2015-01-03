@@ -2,5 +2,5 @@
 
 __file__.paper.html  paper.html.erb
 
-css/paper.css
+css/o/paper.css
 

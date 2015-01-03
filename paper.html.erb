@@ -5,11 +5,11 @@
    <meta name='generator' content='<%= Pluto.generator %>'>
    <title><%= site.title %></title>
 
-   <%= stylesheet_link_tag 'css/paper' %>
+   <%= stylesheet_link_tag 'css/o/paper' %>
   </head>
   <body>
 
-<h1><%= site.title %></h1>
+<h1 class='site-title'><%= site.title %></h1>
 
 
 
@@ -20,12 +20,13 @@
 
 
 <% if new_date %>
- <h2 class='new-date'>
+ <h4 class='new-date'>
   <%= item.published.strftime('%A, %B %e, %Y') %>
- </h2>
+ </h4>
 <% else %>
-  <hr class='item-seperator'>
+  <div class='item-separator'></div>
 <% end %>
+
 
 
 <article class='item'>

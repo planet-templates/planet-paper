@@ -6,6 +6,19 @@ Pluto is a feed reader that lets you build web pages from published
 web feeds. More [Pluto Project Site »](http://feedreader.github.io)
 
 
+### Style Settings
+
+~~~
+$font-family: Helvetica, sans-serif;
+
+$primary-color: black;
+
+$item-body-color: #222222;
+~~~
+
+[(Source: `css/_settings.scss`)](css/_settings.scss)
+
+
 ## Usage
 
 ### Try It Yourself - How To Use the Top Template Pack

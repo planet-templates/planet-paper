@@ -1,0 +1,75 @@
+//////////////////////////////////////////////
+// Note:
+//  use (w/ option -C/--no-cache) e.g.
+//
+//   $ sass -C paper.scss o/paper.css
+//
+
+
+@import 'settings';
+
+
+body {
+  font-family: $font-family;
+}  
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  
+  &:visited {
+    text-decoration: none;
+    color: $primary-color;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: $primary-color;
+  }
+} // a
+ 
+
+.site-title {
+  text-align: center;
+}
+
+
+.new-date {
+  text-align: center;
+}
+
+.item-separator {
+  margin: 0;
+  border-bottom: 1px solid grey;
+}
+
+
+.item {
+
+  .feed-title {
+    margin-bottom: 2px;
+  }
+
+  .item-title {
+    margin-top: 0;
+    maring-bottom: 2px;
+
+   .item-timestamp {
+     font-size: 80%;
+     color: grey;
+   }
+  } // item-title
+
+
+ .item-body {
+   color: $item-body-color;
+
+   p {
+     margin-top: 2px;
+     margin-bottom: 2px;
+   }
+  } // item-body
+
+
+} // item
+

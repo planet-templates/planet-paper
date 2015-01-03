@@ -1,0 +1,38 @@
+body {
+  font-family: Helvetica, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black; }
+  a:visited {
+    text-decoration: none;
+    color: black; }
+  a:hover {
+    text-decoration: underline;
+    color: black; }
+
+.site-title {
+  text-align: center; }
+
+.new-date {
+  text-align: center; }
+
+.item-separator {
+  margin: 0;
+  border-bottom: 1px solid grey; }
+
+.item .feed-title {
+  margin-bottom: 2px; }
+.item .item-title {
+  margin-top: 0;
+  maring-bottom: 2px; }
+  .item .item-title .item-timestamp {
+    font-size: 80%;
+    color: grey; }
+.item .item-body {
+  color: #222222; }
+  .item .item-body p {
+    margin-top: 2px;
+    margin-bottom: 2px; }
+
+/*# sourceMappingURL=paper.css.map */
