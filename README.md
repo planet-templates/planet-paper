@@ -6,6 +6,11 @@ Pluto is a feed reader that lets you build web pages from published
 web feeds. More [Pluto Project Site »](http://feedreader.github.io)
 
 
+## Screenshot - Preview
+
+![](screenshot.png)
+
+
 ### Style Settings
 
 ~~~
